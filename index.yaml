@@ -2,8 +2,29 @@ apiVersion: v1
 entries:
   karpenter:
   - apiVersion: v2
+    appVersion: 0.24.0
+    created: "2023-02-09T08:38:43.75723-03:00"
+    description: A Helm chart for Karpenter, an open-source node provisioning project
+      built for Kubernetes.
+    digest: 7deed7caa983a4bce12f6f839d372a8926cd0b5eb8f5133811d66262f1317639
+    home: https://karpenter.sh/
+    icon: https://repository-images.githubusercontent.com/278480393/dab059c8-caa1-4b55-aaa7-3d30e47a5616
+    keywords:
+    - cluster
+    - node
+    - scheduler
+    - autoscaling
+    - lifecycle
+    name: karpenter
+    sources:
+    - https://github.com/aws/karpenter/
+    type: application
+    urls:
+    - https://pablommr.github.io/helm-charts/karpenter-v0.24.0.tgz
+    version: v0.24.0
+  - apiVersion: v2
     appVersion: 0.23.0
-    created: "2023-02-06T15:10:51.375417-03:00"
+    created: "2023-02-09T08:38:43.754917-03:00"
     description: A Helm chart for Karpenter, an open-source node provisioning project
       built for Kubernetes.
     digest: 3d97d249beeab355b0975b06ffb676e4a928a9c959641adc1e994d5e7546f7be
@@ -22,4 +43,4 @@ entries:
     urls:
     - https://pablommr.github.io/helm-charts/karpenter-v0.23.0.tgz
     version: v0.23.0
-generated: "2023-02-06T15:10:51.373047-03:00"
+generated: "2023-02-09T08:38:43.751178-03:00"

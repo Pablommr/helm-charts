@@ -24,5 +24,5 @@ Obs** Create Github page to expose helm chart
 
 To update existing index to update version (download new .tgz first):
 ```
-helm repo index --merge --url https://pablommr.github.io/helm-charts/ .
+helm repo index --url https://pablommr.github.io/helm-charts/ --merge index.yaml .
 ```
