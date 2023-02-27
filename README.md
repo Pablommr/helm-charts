@@ -6,7 +6,7 @@ Helm charts repository
 1 - Download .tgz from public AWS repo:
 
 ```
-helm pull oci://public.ecr.aws/karpenter/karpenter --version v0.23.0
+helm pull oci://public.ecr.aws/karpenter/karpenter --version v0.25.0
 ````
 
 Obs** change --version to version desired
